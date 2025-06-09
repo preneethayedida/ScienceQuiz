@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Science & Nature Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Science & Nature Quiz</h1>
+    <p>Test your knowledge with fun and challenging questions!</p>
+  </header>
+
+  <main>
+    <section id="quiz-container" aria-live="polite" aria-label="Quiz questions and options">
+      <div id="question-box">
+        <h2 id="question" tabindex="0">Question will appear here</h2>
+      </div>
+
+      <div id="options" role="list" aria-label="Answer options">
+        <!-- Option buttons will be inserted here dynamically -->
+      </div>
+
+      <button id="next-btn" disabled aria-disabled="true" aria-label="Next question">Next</button>
+    </section>
+
+    <section id="result-box" class="hidden" aria-live="polite" aria-label="Quiz results summary">
+      <h2>Quiz Completed!</h2>
+      <p id="score">Your score will appear here</p>
+      <button id="restart-btn" aria-label="Restart quiz">Restart Quiz</button>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Science Quiz App by Preneetha Yedida!
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
